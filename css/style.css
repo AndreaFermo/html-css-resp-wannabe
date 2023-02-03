@@ -135,10 +135,27 @@ img {
     }
 }
 
- /*
+
  @media screen and (max-width: 480px) {
-    .container{
-        margin: auto;
+
+    h1 {
+        font-size: 3rem;
+        margin-bottom: 4rem;  
+    }
+
+    h2 {
+        font-size: 2.5rem;
+        margin-bottom: 3rem;
+    }
+    
+    h3 {
+        margin-bottom: 1rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
     }
 
     .row {
@@ -146,10 +163,13 @@ img {
         align-items: center;
     }
 
-    .site-header {
-        max-width: 100%;
-        margin: 3rem auto auto;
+    .lessons .col {
+        width: 90%;
     }
 
-}
-*/
+    .lessons .col img {
+        height: 280px;
+        margin-bottom: 1rem;
+    }
+
+   
