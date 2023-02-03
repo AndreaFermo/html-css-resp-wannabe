@@ -155,7 +155,7 @@ img {
 
     .text {
         font-size: 1.2rem;
-        margin-bottom: 4rem;
+        margin-bottom: 2rem;
     }
 
     .row {
@@ -172,4 +172,38 @@ img {
         margin-bottom: 1rem;
     }
 
-   
+    .steps {
+        margin-bottom: 0rem;
+    }
+
+    .steps .col {
+        width: 90%;
+    }
+
+    .steps .col img {
+        height: 280px;
+        margin-bottom: 1rem;
+    }
+
+    .why-us .col-left {
+        width: 90%;
+        margin-bottom: 4rem;
+    }
+    
+    .why-us .col-right {
+        width: 90%;
+    }
+
+    .why-us p {
+        font-size: 1.2rem;
+    }
+
+    .why-us {
+        background-color: rgb(34, 34, 34);
+        margin: 0;
+        padding: 3rem 0rem;
+    }
+
+    
+
+ }
